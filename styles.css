@@ -5,7 +5,6 @@
 
 .introduction * {
     /* border: red dotted 1px;*/
-    border: green dotted 3px;
 }
 
 body {
@@ -103,6 +102,7 @@ body {
     height: 150px;
     max-height: 150px;
     width: 100%;
+    max-width: 150px;
     border: #3883f6 solid 3.5px;
     border-radius: 15%;
 }
@@ -127,5 +127,31 @@ footer{
     text-align: center;
     padding: 10px;
 
+}
+.sign-up-block{
+    background-color: #3883f6;
+    margin: 50px 100px;
+    border-radius: 5px;
+    display: flex;
+    padding: 25px 50px;
+    justify-content: space-evenly;
+    color: #F9faf8;
+}
 
+.sign-up-button{
+    color: #F9faf8;
+    background-color: inherit;
+    border-radius: 5px;
+    border-color: #F9faf8;
+    border-width: 2px;
+    font-size: medium;
+    font-weight: bold;
+}
+.sign-up-block h3{
+    margin: 0;
+    font-weight: bolder;
+}
+
+.sign-up-block h4{
+    margin: 0;
 }
